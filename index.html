@@ -16,6 +16,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- Font awesome cdn -->
@@ -25,6 +29,7 @@
 <body>
 
     <header class="container mx-auto mt-6">
+        <!-- Nav starts here -->
         <div class="navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
@@ -54,19 +59,67 @@
               <a class="btn bg-[#B68C5A] text-white font-[poppins] text-[18px]">Free Consultant</a>
             </div>
           </div>
+        <!-- Nav ends here -->
 
-        <div class="mt-7 banner bg-[url('./images/banner.png')] bg-cover bg-no-repeat bg-scroll bg-center p-52 rounded-md">
-            <div class="text-center space-y-4">
-                <h1 class="text-white text-6xl font-[poppins] w-[90%] md:w-[60%] mx-auto font-extrabold">We Provide Effective Legal Solutions</h1>
-                <p class="text-[#E7E7E7] w-[90%] md:w-[60%] mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                <input type="text" name="" id="" placeholder="Search for service" class="p-4 rounded-xl w-[90%] lg:w-[40%]">
-                <button class="bg-[#B68C5A] p-4 rounded-xl text-white font-[poppins] font-bold">Search</button>
+        <!-- Banner starts here -->
+        <div class="mt-7 banner bg-[url('./images/banner.png')] bg-cover bg-no-repeat bg-scroll bg-center p-10 lg:p-44 rounded-md">
+            <div class="text-left lg:text-center space-y-4">
+                <h1 class="text-white text-4xl lg:text-6xl font-[EB Garamond] w-[90%] md:w-[60%] mx-auto font-bold">We Provide Effective Legal Solutions</h1>
+                <p class="text-[#E7E7E7] w-[90%] md:w-[60%] mx-auto font-[poppins]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <input type="text" name="" id="" placeholder="Search for service" class="p-4 rounded-xl w-[100%] lg:w-[40%]">
+                <button class="bg-[#B68C5A] p-4 rounded-xl text-white font-[poppins] font-bold w-[100%] lg:w-[10%]">Search</button>
             </div>
         </div>
+        <!-- Banner ends here -->
     </header>
 
     <main>
+        <section class="container mx-auto mt-20 overflow-hidden">
+            <div class="text-center">
+                <h1 class="text-3xl font-bold mb-6">The Legal Practice Area</h1>
+                <p class="font-[poppins] w-[90%] md:w-[50%] mx-auto text-[#707070] mb-14">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
 
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 w-[90%] mx-auto">
+                <div class="text-center space-y-3 border border-gray-300 py-8 px-3">
+                    <img src="./images/business.png" alt="" class="mx-auto">
+                    <h2 class="text-xl font-bold">Business Law</h2>
+                    <p class="mx-auto text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <button class="rounded-full px-4 py-3 bg-[#B68C5A] text-white"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="text-center space-y-3 border border-gray-300 py-8 px-3">
+                    <img src="./images/criminal.png" alt="" class="mx-auto">
+                    <h2 class="text-xl font-bold">Business Law</h2>
+                    <p class="mx-auto text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <button class="rounded-full px-4 py-3 bg-[#B68C5A] text-white"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="text-center space-y-3 border border-gray-300 py-8 px-3">
+                    <img src="./images/divorce.png" alt="" class="mx-auto">
+                    <h2 class="text-xl font-bold">Business Law</h2>
+                    <p class="mx-auto text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <button class="rounded-full px-4 py-3 bg-[#B68C5A] text-white"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="text-center space-y-3 border border-gray-300 py-8 px-3">
+                    <img src="./images/child.png" alt="" class="mx-auto">
+                    <h2 class="text-xl font-bold">Business Law</h2>
+                    <p class="mx-auto text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <button class="rounded-full px-4 py-3 bg-[#B68C5A] text-white"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="text-center space-y-3 border border-gray-300 py-8 px-3">
+                    <img src="./images/tax.png" alt="" class="mx-auto">
+                    <h2 class="text-xl font-bold">Business Law</h2>
+                    <p class="mx-auto text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <button class="rounded-full px-4 py-3 bg-[#B68C5A] text-white"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="text-center space-y-3 border border-gray-300 py-8 px-3">
+                    <img src="./images/education.png" alt="" class="mx-auto">
+                    <h2 class="text-xl font-bold">Business Law</h2>
+                    <p class="mx-auto text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <button class="rounded-full px-4 py-3 bg-[#B68C5A] text-white"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                
+            </div>
+        </section>
     </main>
 
     <footer>
